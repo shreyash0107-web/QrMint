@@ -45,7 +45,3 @@ State synchronization happens via standard `useEffect` hooks:
 - **Empty States & Local Storage Fallback**: The app fails gracefully if `localStorage` is disabled or corrupted. It defaults to sensible starting configurations, avoiding runtime crashes.
 - **Logo Error Correction**: Logos obscure part of the QR code matrix. The UI intelligently warns users if they try to embed a logo while using a Low (L - 7%) Error Correction level, which could make the code unreadable.
 
-
-
----
-*Built for GDG On Campus Technical Assessment.*
