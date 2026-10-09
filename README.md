@@ -1,6 +1,6 @@
-# QR Code Generator & Designer
+# QR Mint: QR Code Generator & Designer
 
-
+Welcome to **QR Mint**, a powerful and highly customizable QR code generator designed for speed, flexibility, and beautiful aesthetics. Generate, customize, preview, and download QR codes purely in your browser without any backend dependencies!
 ## 📸 Screenshot
 
 ![QR Code Generator Screenshot](./public/screenshot.png)
