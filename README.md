@@ -1,6 +1,9 @@
 # QR Code Generator & Designer
 
-A production-ready Single Page Application (SPA) built to comply with the Google Developer Groups (GDG) On Campus technical assessment specifications. This app allows users to generate, customize, preview, and download QR codes purely in the browser without any backend dependencies.
+
+## 📸 Screenshot
+
+![QR Code Generator Screenshot](./public/screenshot.png)
 
 ## 🚀 Features
 
