@@ -41,25 +41,7 @@ State synchronization happens via standard `useEffect` hooks:
 - **Empty States & Local Storage Fallback**: The app fails gracefully if `localStorage` is disabled or corrupted. It defaults to sensible starting configurations, avoiding runtime crashes.
 - **Logo Error Correction**: Logos obscure part of the QR code matrix. The UI intelligently warns users if they try to embed a logo while using a Low (L - 7%) Error Correction level, which could make the code unreadable.
 
-## 💻 Local Setup & Testing
 
-### Prerequisites
-- Node.js (v18 or higher recommended)
-- npm
-
-### Installation
-1. Clone this repository or open the project folder.
-2. Run `npm install` to install dependencies.
-3. Run `npm run dev` to start the Vite development server.
-4. Open the provided `localhost` link in your browser.
-
-### Testing Steps
-1. **QR Generation**: Open the app and toggle between URL, Text, Email, Phone, and Wi-Fi tabs. Verify the QR payload updates correctly.
-2. **Customization**: Change the foreground/background colors, apply presets, and adjust the padding slider. Ensure the live preview reflects changes immediately.
-3. **Contrast Warning**: Set the foreground to `#cccccc` and background to `#ffffff`. A yellow warning banner should appear above the preview.
-4. **Logo Warning**: Upload a logo image and set Error Correction to "L" (Low). An additional warning should appear.
-5. **Downloads**: Click "PNG" and "SVG" buttons to ensure files are generated properly in your browser. Click "Copy to Clipboard" and paste the image elsewhere.
-6. **Persistence**: Generate a few different codes, reload the page, and verify the "Recent QR Codes" panel retains your history. Clicking an item should fully restore the settings.
 
 ---
 *Built for GDG On Campus Technical Assessment.*
